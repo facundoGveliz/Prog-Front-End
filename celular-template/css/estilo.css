@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    font: inherit;
+}
+
+
+
+.cont-celular{
+    width: 250px;
+    height: 450px;
+    background-color:black;
+    margin: 30px auto;
+    border-style: solid;
+    border-color: rgb(97, 101, 105);
+    border-width: 5px;
+    border-radius: 40px 40px 40px 40px;
+    
+    
+}
+
+.cont-superior{
+    width: auto;;
+    height: 20px;
+    padding: 10px auto 10px auto;
+    
+    
+
+}
+
+
+
+.pantalla{
+    width: 240px;
+    height: 350px;
+    background-color: #8FBC8F;
+    margin: 10px auto;
+
+}
+
+.boton{
+    width: 50px;
+    height: 15px;
+    background-color: #708090;
+    position: relative;
+    left: 95px;
+    top: 15px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.camara{
+    display: inline-block;
+    width: 20px;   
+    border-style: solid;
+    border-radius: 50% 50% 50% 50%;
+    margin: 5px 25px;
+    background-color: rgb(70, 70, 73);
+}
+
+.notificaciones{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+
+    border-radius: 50% 50% 50% 50%;
+    margin: 0px -5px ;
+    animation-name: parpadeo;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+} 
+
+@keyframes parpadeo{
+    0% {background: none}
+    50% {background: snow;}
+    100% {background:none}
+
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+    margin: 100px 20px 20px 20px;
+}
